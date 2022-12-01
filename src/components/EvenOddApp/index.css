@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  padding: 80px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.sub-heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.button {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+}
+.note {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-container {
+    padding: 150px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .sub-heading {
+    font-size: 30px;
+  }
+  .note {
+    font-size: 20px;
+  }
+  .button {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 8px;
+    border-width: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+  }
+}
